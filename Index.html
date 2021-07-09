@@ -116,11 +116,6 @@
                             data-bs-dismiss="offcanvas">Portfolio</a>
                     </li>
                     <li class="py-3">
-                        <a href="#faq"
-                            class="kayden_scrollspy underline_animation underline_text text-reset fs-4 fw-bold"
-                            data-bs-dismiss="offcanvas">FAQ</a>
-                    </li>
-                    <li class="py-3">
                         <a href="#contact"
                             class="kayden_scrollspy underline_animation underline_text text-reset fs-4 fw-bold"
                             data-bs-dismiss="offcanvas">Contact</a>
@@ -200,22 +195,17 @@
                                 <!--Social Links START-->
                                 <ul class="social-links list-inline mb-5">
                                     <li class="list-inline-item">
-                                        <a href="#" title="facebook">
-                                            <i class="fab fa-facebook-f"></i>
-                                        </a>
-                                    </li>
-                                    <li class="list-inline-item">
-                                        <a href="#" title="linkedin">
+                                        <a href="www.linkedin.com/in/absantiago" title="linkedin">
                                             <i class="fab fa-linkedin-in"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="#" title="pinterest">
-                                            <i class="fab fa-pinterest-p"></i>
+                                        <a href="https://twitter.com/AbdielS42487875" title="twitter">
+                                            <i class="fab fa-twitter"></i>
                                         </a>
                                     </li>
                                     <li class="list-inline-item">
-                                        <a href="#" title="git">
+                                        <a href="https://github.com/a-santiago" title="git">
                                             <i class="fab fa-git"></i>
                                         </a>
                                     </li>
@@ -229,7 +219,7 @@
                     <!--About Section START // CHANGE TO PICTURE-->
                     <div class="offset-md-1 col-md-5 mt-5 mt-md-0">
                         <div class="skills_container">
-                            <h2 class="fs-3 mb-5 fw-bold">Face goes Here</h2>
+                            <h2 class="fs-3 mb-5 fw-bold"></h2>
                             <div class="about-image h-100 w-100 d-flex align-items-center">
                                 <img src="/img/500x500.png"
                                     class="kayden_morph_animation img-fluid kayden-shadow fit-cover fit-left-top"
@@ -422,6 +412,11 @@
                     </div>
                     <!--Masonry Grid Item END-->
                     <!--Masonry Grid Item START-->
+                    <!--Masonry Grid Item END-->
+                </div>
+                <div class="row gy-4 grid">
+                    <div class="col-md-6 col-lg-3 grid-item"></div>
+                    <div class="col-md-6 col-lg-3 grid-item"></div>
                     <div class="col-md-6 col-lg-3 grid-item">
 
                         <a href="https://upload.wikimedia.org/wikipedia/commons/5/59/500_x_300_Ramosmania_rodriguesii_%28Rubiaceae%29.jpg"
@@ -439,8 +434,9 @@
                         </a>
 
                     </div>
-                    <!--Masonry Grid Item END-->
+
                 </div>
+
                 <!--Masonry Grid Container END-->
             </div>
             <!--Section Body START-->
@@ -557,20 +553,22 @@
                     </div>
                     <div class="col-md-6">
                         <h3 class="mb-5 fs-4 text-center text-sm-left">Or Let's start to conversation</h3>
-                        <form method="post" id="contact-form" netlify>
+                        <form method="post" netlify>
                             <div class="mb-4">
-                                <input type="text" name="name" id="name" placeholder="Full name" class="form-control">
+                                <input type="text" name="name" id="name" placeholder="Full name" class="form-control"
+                                    required>
                             </div>
                             <div class="mb-4">
-                                <input type="email" name="email" id="email" placeholder="Email" class="form-control">
+                                <input type="email" name="email" id="email" placeholder="Email" class="form-control"
+                                    required>
                             </div>
                             <div class="mb-4">
                                 <input type="text" name="subject" id="subject" placeholder="Subject"
-                                    class="form-control">
+                                    class="form-control" required>
                             </div>
                             <div class="mb-4">
                                 <textarea placeholder="Message" name="text" id="text" class="form-control" cols="30"
-                                    rows="10"></textarea>
+                                    rows="10" required></textarea>
                             </div>
                             <div class="mb-4">
                                 <button type="submit" id="contact-btn" class="btn btn-primary">Send Message</button>

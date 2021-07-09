@@ -13564,7 +13564,7 @@ section.section_background {
 /* 5.4 Portfolio Image */
 img.img-grayTransition {
   -webkit-filter: grayscale(30%);
-  filter: grayscale(30%);
+  filter: grayscale(60%);
   -webkit-transition: all .15s ease-in-out;
   transition: all .15s ease-in-out;
 }
